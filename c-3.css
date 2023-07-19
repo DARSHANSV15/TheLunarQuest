@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url(./assets/sketch-g9ce5ef8a4_1920.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.title {
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.603);
+    color: black;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: rgba(128, 128, 128, 0.791);
+    color: black;
+}
+
+.embed {
+    background-color: rgba(128, 128, 128, 0.791);
+}
+
+.mission-obj {
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.839);
+    font-weight: 500;
+    border: 1px, solid, white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.components {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.654);
+    border-radius: 20px;
+    color: black;
+}
+
+.components > .img {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:991px) {
+    .components {
+        display: flex;
+        flex-direction: column;
+    }
+}

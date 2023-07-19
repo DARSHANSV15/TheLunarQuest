@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    background: url(./assets/cosmos-g54c79c742_1920.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.title {
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.603);
+    color: white;
+}
+
+.brochure {
+    width: 100vw;
+    height: 500px;
+    border: 1px solid white;
+}
+
+.mission-obj {
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.113);
+    font-weight: 500;
+    border: 1px, solid, white;
+}
+
+.mission-info {
+    background: linear-gradient(180deg, #d7bbf554, #ede4ff50);
+}
+
+table, tr, td {
+    border: 1px solid;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.embed {
+    background-color: rgba(128, 128, 128, 0.791);
+}

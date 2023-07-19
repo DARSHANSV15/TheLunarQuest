@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url(./assets/constellations.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#head-text {
+    color: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card :hover {
+    transform: scale(1.015);
+    z-index: 0.1;
+}
+
+#isro-embed .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
